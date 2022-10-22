@@ -1,0 +1,70 @@
+import { SiGmail, SiLinkedin, SiWhatsapp } from "react-icons/si";
+import { BiPhoneCall } from "react-icons/bi";
+import { BsTelephone } from "react-icons/bs";
+
+const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatch<React.SetStateAction<boolean>> }) => {
+	return (
+		<div className="w-full fixed top-28 bottom-0 mx-auto flex transition-all flex-col bg-transparent z-10 items-center">
+			<div className="mx-auto px-5 pt-3 pb-10 h-auto w-auto bg-transparent backdrop-blur-lg   transition-all rounded shadow-lg items-center">
+				<h1
+					className=" mx-0 p-0 cursor-pointer text-gray-500 text-right text-2xl font-bold float-right "
+					onClick={() => setShowContactCard(false)}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						className="w-6 h-6 "
+					>
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</h1>
+
+				<h2 className="text-indigo-600 py-1 text-3xl font-bold border-b-2 border-gray-200">Contact</h2>
+				<a
+					href="mailto:mrsamd02@gmail.com?subject=Web%20Developement%20Service&body=message..."
+					target="_blank"
+					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow"
+				>
+					<span className=" mx-3">
+						<SiGmail size={35} color="#e60000" />
+					</span>
+					<span className="px-6 text-xl   text-gray-800">mrsamd02@gmail.com</span>
+				</a>
+
+				<a
+					href="https://api.whatsapp.com/send?phone=2349073077717"
+					target="_blank"
+					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow"
+				>
+					<span className=" mx-3">
+						<SiWhatsapp size={35} color="#00e600" />
+					</span>
+					<span className="px-6 text-xl   text-gray-800"> +2349073077717</span>
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/joseph-samuel-dev"
+					target="_blank"
+					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow"
+				>
+					<span className=" mx-3">
+						<SiLinkedin size={35} color="#3300cc" />
+					</span>
+					<span className="px-6 text-xl   text-gray-800">mrsamd02@linkedin.com</span>
+				</a>
+
+				<a href="tel:2349073077717" className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow">
+					<span className=" mx-3">
+						<BsTelephone size={35} color="#0055ff" />
+					</span>
+					<span className="px-6 text-xl text-center text-gray-800">+2349073077717</span>
+				</a>
+			</div>
+		</div>
+	);
+};
+
+export default ContactCard;
