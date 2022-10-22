@@ -1,5 +1,4 @@
 import { SiGmail, SiLinkedin, SiWhatsapp } from "react-icons/si";
-import { BiPhoneCall } from "react-icons/bi";
 import { BsTelephone } from "react-icons/bs";
 
 const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatch<React.SetStateAction<boolean>> }) => {
