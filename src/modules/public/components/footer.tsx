@@ -20,8 +20,8 @@ const Footer = () => {
 			</ul>
 			<ul className=" w-auto  md:w-2/6 mx-4 md:mx-auto flex  flex-col px-6">
 				<h3 className="text-lg font-bold py-3 text-black">Services</h3>
-				<span>website Developrment</span>
-				<span>Mobile Application Developrment</span>
+				<span>website Development</span>
+				<span>Mobile Application Development</span>
 				<span>website hosting and Management</span>
 				<span>Graphic Design</span>
 				<span>UI Design</span>

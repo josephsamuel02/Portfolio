@@ -13,10 +13,10 @@ const Nav = () => {
 
 	const [showContactCard, setShowContactCard] = useState<boolean>(false);
 	return (
-		<section className="max-w-full mx-0 ">
+		<section className="w-full mx-0 ">
 			<nav className="w-full mx-0 z-10 py-0 fixed top-0 backdrop-blur-lg flex flex-row items-center transparent   shadow-md">
 				<a href={ROUTES.HOME} className="mx-6 my-0  items-center">
-					<img alt=" Company Logo" className="h-20 w-20 sm:h-20" src="img/planet.png" />
+					<img alt=" Company Logo" className="h-20 w-20 " src="img/planet.png" />
 				</a>
 
 				<ul className="mx-8 ml-40 py-3 hidden md:flex flex-row">
