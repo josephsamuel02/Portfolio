@@ -5,7 +5,7 @@ import ContactCard from "./contact_card";
 
 const Nav = () => {
 	const navigation = [
-		{ name: "Services", href: ROUTES.SERVICE },
+		{ name: "Services", href: "#footer" },
 		{ name: "Contact", href: ROUTES.CONTACT },
 		{ name: "About", href: ROUTES.ABOUT },
 	];
@@ -14,17 +14,17 @@ const Nav = () => {
 	const [showContactCard, setShowContactCard] = useState<boolean>(false);
 	return (
 		<section className="max-w-full mx-0 ">
-			<nav className="w-full mx-0 z-10 py-8 md:py-3 fixed top-0 backdrop-blur-lg flex flex-row items-center transparent   shadow-md">
-				{/* <a href={ROUTES.HOME} className="mx-6 my-3 items-center">
-					<img alt=" Company Logo" className="h-8 w-auto sm:h-10" src="/vite.svg" />
-				</a> */}
+			<nav className="w-full mx-0 z-10 py-0 fixed top-0 backdrop-blur-lg flex flex-row items-center transparent   shadow-md">
+				<a href={ROUTES.HOME} className="mx-6 my-0  items-center">
+					<img alt=" Company Logo" className="h-20 w-20 sm:h-20" src="img/planet.png" />
+				</a>
 
 				<ul className="mx-8 ml-40 py-3 hidden md:flex flex-row">
 					{navigation.map((item, i) =>
 						item.name == "Contact" ? (
 							<a
 								key={i}
-								className="mx-1 px-6 tex-center text-indigo-600 hover:text-blue-600 text-lg font-md"
+								className="mx-1 px-6 tex-center text-slate-400 hover:text-blue-700 text-lg font-bold"
 								href={"#"}
 								onClick={() => setShowContactCard(true)}
 							>
@@ -32,7 +32,7 @@ const Nav = () => {
 							</a>
 						) : (
 							<a
-								className="mx-1 px-6 tex-center text-indigo-600 hover:text-blue-600 text-lg font-md"
+								className="mx-1 px-6 tex-center text-slate-400 hover:text-blue-700 text-lg font-bold"
 								href={`${item.href}`}
 								key={i}
 							>

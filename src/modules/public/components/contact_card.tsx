@@ -1,5 +1,6 @@
 import { SiGmail, SiLinkedin, SiWhatsapp } from "react-icons/si";
 import { BsTelephone } from "react-icons/bs";
+import URLS from "../../../url.links/urls";
 
 const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatch<React.SetStateAction<boolean>> }) => {
 	return (
@@ -23,9 +24,9 @@ const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatc
 
 				<h2 className="text-indigo-600 py-1 text-3xl font-bold border-b-2 border-gray-200">Contact</h2>
 				<a
-					href="mailto:mrsamd02@gmail.com?subject=Web%20Developement%20Service&body=message..."
+					href={URLS.EMAIL}
 					target="_blank"
-					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow"
+					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow-lg"
 				>
 					<span className=" mx-3">
 						<SiGmail size={35} color="#e60000" />
@@ -34,28 +35,28 @@ const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatc
 				</a>
 
 				<a
-					href="https://api.whatsapp.com/send?phone=2349056974667"
+					href={URLS.WHATSAPP}
 					target="_blank"
-					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow"
+					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow-lg"
 				>
-					<span className=" mx-3 rounded-full bg-green-500">
+					<span className=" mx-2 p-0 rounded-full bg-green-500">
 						<SiWhatsapp size={35} color="white" />
 					</span>
 					<span className="px-6 text-xl   text-gray-800"> +2349056974667</span>
 				</a>
 
 				<a
-					href="https://www.linkedin.com/in/joseph-samuel-dev"
+					href={URLS.LINKEDIN}
 					target="_blank"
-					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow"
+					className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow-lg"
 				>
 					<span className=" mx-3">
 						<SiLinkedin size={35} color="#3300cc" />
 					</span>
-					<span className="px-6 text-xl   text-gray-800">linkedin.com/in/joseph-samuel-dev</span>
+					<span className="px-6 text-xl   text-gray-800">in/joseph-samuel-dev</span>
 				</a>
 
-				<a href="tel:2349073077717" className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow">
+				<a href={URLS.CALL} className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow-lg">
 					<span className=" mx-3">
 						<BsTelephone size={35} color="#0055ff" />
 					</span>
