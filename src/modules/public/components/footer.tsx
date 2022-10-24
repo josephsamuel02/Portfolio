@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SiMicropython, SiTheregister } from "react-icons/si";
+import { MdCopyright } from "react-icons/md";
 import ContactCard from "./contact_card";
 const Footer = () => {
 	const [showContactCard, setShowContactCard] = useState<boolean>(false);
@@ -27,7 +27,7 @@ const Footer = () => {
 				<span>UI Design</span>
 				<br /> <br /> <br />
 				<span className="mx-1 text-base flex flex-row items-center ">
-					<SiTheregister /> <span className="mx-1 "> 2022</span>
+					<MdCopyright size={24} /> <span className="mx-1 "> 2022 Josephh Samuel</span>
 				</span>
 			</ul>
 
