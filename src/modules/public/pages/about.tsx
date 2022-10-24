@@ -12,8 +12,8 @@ const About = () => {
 			<div className="mx-auto md:mx-auto px-6 py-12 w-full h-auto flex flex-col md:flex-row rounded border items-center border-slate-300 border-lg">
 				<img src="img/planet.png" alt="image" className="m-3 px-0 w-52 h-52 md:w-64 md:h-64 object-cover rounded-full" />
 
-				<div className="mx-auto md:mx-12 px-6 py-12 w-full   flex flex-col   items-center ">
-					<p className=" px-6 pt-6 md:py-auto text-center md:text-left text-lg text-slate-700 ">
+				<div className="mx-auto md:mx-12 px-2 md:px-6 py-12 w-full   flex flex-col   items-center ">
+					<p className=" px-0 md:px-6  pt-6 md:py-auto text-center md:text-left text-lg text-slate-700 ">
 						I'm a full-stack developer passionate about creativity and idea implementation. Skilled in several programing
 						languages and software technologies. Experienced in website design, mobile app developement and bussiness logic
 						intergration. I can't wait to meet you, let's bring that idea to life.
