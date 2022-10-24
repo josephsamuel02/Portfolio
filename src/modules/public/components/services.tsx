@@ -5,9 +5,9 @@ import ContactCard from "./contact_card";
 const Services = () => {
 	const [showContactCard, setShowContactCard] = useState<boolean>(false);
 	return (
-		<div id="service" className=" max-w-full mx-0 mt-34 py-24  bg-transparent ">
+		<div id="service" className=" w-full mx-0 px-0 mt-34 py-24  bg-transparent ">
 			<h1 className=" mt-48 mx-6 md:mt-3  md:mx-12  p-0 md:p-3 text-5xl font-bold text-indigo-600">Some Services</h1>
-			<div className="w-full mx-6 md:mx-auto p-1 md:p-6 flex flex-col md:flex-row">
+			<div className=" md:w-full mx-3 md:mx-auto p-1 md:p-6 flex flex-col md:flex-row">
 				<div className=" left mx-0 md:mx-3 w-full md:w-1/2 h-auto items-center">
 					<div className="box mx-0 md:mx-auto my-12 p-0 flex flex-row rounded items-center  ">
 						<img src={URLS.HEADIMAGE} alt="product1" className="m-3 p-0 w-36 h-auto  md:w-52 md:h-auto rounded object-cover" />
