@@ -14,14 +14,15 @@ import {
 	SiDigitalocean,
 	SiGithub,
 	SiNpm,
+	SiOpenstack,
 } from "react-icons/si";
 import { BsFillTerminalFill } from "react-icons/bs";
 import { TbBrandReactNative } from "react-icons/tb";
 
-const Clients = () => {
+const Stack = () => {
 	return (
 		<div className="max-w-full px-6 h-auto  ">
-			<h1 className=" mx-1 md:mx-6  py-3 p-0 md:p-3 text-5xl font-bold text-indigo-600">My Stack</h1>
+			<h1 className=" mx-1 md:mx-6  py-3 p-0 md:p-3 text-4xl md:text-5xl font-bold text-indigo-600">My Stack</h1>
 
 			<div className="w-full mx-auto  py-12 h-auto flex flex-row flex-wrap items-center ">
 				<h1 className="mx-auto  p-3 bg-transparent text-center">
@@ -61,7 +62,9 @@ const Clients = () => {
 				<h1 className=" mx-auto  p-3 bg-transparent text-center">
 					<BsFillTerminalFill color="black" size={55} />
 				</h1>
-
+				<h1 className=" mx-auto  p-3 bg-transparent text-center">
+					<SiNpm color="#c40840" size={55} />
+				</h1>
 				<h1 className=" mx-auto  p-3 bg-transparent text-center">
 					<TbBrandReactNative color="blue" size={55} />
 				</h1>
@@ -87,14 +90,14 @@ const Clients = () => {
 					<SiDigitalocean color="#3366ff" size={55} />
 				</h1>
 				<h1 className=" mx-auto  p-3 bg-transparent text-center">
-					<FaAws color="#00001a" size={55} />
+					<SiOpenstack color="red" size={55} />
 				</h1>
 				<h1 className=" mx-auto  p-3 bg-transparent text-center">
-					<SiNpm color="#c40840" size={55} />
+					<FaAws color="#00001a" size={55} />
 				</h1>
 			</div>
 		</div>
 	);
 };
 
-export default Clients;
+export default Stack;

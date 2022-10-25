@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import LandingPageDashBoard from "../components/landing.page.dashBoard";
 import Features from "../components/features";
 import Services from "../components/services";
-import Clients from "../components/clients";
+import Stack from "../components/stack";
 import Footer from "../components/footer";
 import About from "./about";
 import { SiWhatsapp } from "react-icons/si";
@@ -14,7 +14,7 @@ const LandingPage = () => {
 			<Services />
 			<Features />
 			<About />
-			<Clients />
+			<Stack />
 			<Footer />
 
 			<a

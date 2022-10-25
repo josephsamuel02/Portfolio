@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BsMenuButton, BsMenuButtonFill } from "react-icons/bs";
 import ROUTES from "../public.routes";
 import ContactCard from "./contact_card";
 
@@ -15,7 +14,7 @@ const Nav = () => {
 	return (
 		<section className="w-full mx-0 ">
 			<nav className="w-full mx-0 z-10 py-0 fixed top-0 backdrop-blur-lg flex flex-row items-center transparent   shadow-md">
-				<a href={ROUTES.HOME} className="mx-6 my-0  items-center">
+				<a href={ROUTES.HOME} className="mx-2 md:mx-6 my-0  items-center">
 					<img alt=" Company Logo" className="h-20 w-20 " src="img/planet.png" />
 				</a>
 
@@ -41,7 +40,7 @@ const Nav = () => {
 						)
 					)}
 				</ul>
-				<h1 className="absolute top-5 right-5 cursor-pointer md:hidden transition-all" onClick={() => setShowNav(!showNav)}>
+				<h1 className="absolute top-7 right-5 cursor-pointer md:hidden transition-all" onClick={() => setShowNav(!showNav)}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -55,12 +54,12 @@ const Nav = () => {
 				</h1>
 
 				{showNav && (
-					<ul className="mx-8 ml-40 py-3  absolute top-10 right-1  flex flex-col bg-transparent backdrop-blur-2xl rounded  shadow">
+					<ul className="mx-8 ml-40 py-3 absolute top-10 right-1 flex flex-col bg-transparent backdrop-blur-2xl rounded  shadow">
 						{navigation.map((item, i) =>
 							item.name == "Contact" ? (
 								<a
 									key={i}
-									className="mx-0 px-6 py-2 tex-center text-indigo-700 text-base font-normal hover:text-black hover:bg-gradient-to-r from-blue-200 transition-all font-md"
+									className="mx-0 px-6 py-2 tex-center text-indigo-700 text-lg hover:text-black hover:bg-gradient-to-r from-blue-200 transition-all font-md"
 									href={"#"}
 									onClick={() => {
 										setShowContactCard(true);
@@ -71,7 +70,7 @@ const Nav = () => {
 								</a>
 							) : (
 								<a
-									className="mx-0 px-6 py-2 tex-center text-indigo-700 text-base font-normal hover:text-black hover:bg-gradient-to-r from-blue-200 transition-all font-md"
+									className="mx-0 px-6 py-2 tex-center text-indigo-700 text-lg hover:text-black hover:bg-gradient-to-r from-blue-200 transition-all font-md"
 									href={`${item.href}`}
 									key={i}
 									onClick={() => setShowNav(false)}

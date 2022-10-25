@@ -21,7 +21,7 @@ const Footer = () => {
 				<span> Phone: +2349056974667</span>
 				<h3 className=" text-lg font-bold py-3 black">Links</h3>
 				<a href="#home">Home</a>
-				<a href="#service">Products</a>
+				<a href="#footer">Services</a>
 				<a href="#home" onClick={() => setShowContactCard(true)}>
 					Contact us
 				</a>
