@@ -10,30 +10,26 @@ const Services = () => {
 			<div className=" md:w-full mx-3 md:mx-auto p-1 md:p-6 flex flex-col md:flex-row">
 				<div className=" left mx-0 md:mx-3 w-full md:w-1/2 h-auto items-center">
 					<div className="box mx-0 md:mx-auto my-12 p-0 flex flex-row rounded items-center  ">
-						<img src={URLS.HEADIMAGE} alt="product1" className="m-3 p-0 w-36 h-auto  md:w-52 md:h-auto rounded object-cover" />
-						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">
-							E-commerce platform, mobile and desktop responsive.
-						</p>
+						<img src="img/1.svg" alt="product1" className="m-3 p-0 w-60 h-auto  md:w-72 md:h-auto rounded object-cover" />
+						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">Social Media platform UI Design.</p>
 					</div>
 					<div className="box mx-0 md:mx-auto my-12 p-0 flex flex-row rounded items-center  ">
-						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">
-							E-commerce platform, mobile and desktop responsive.
-						</p>
-						<img src={URLS.HEADIMAGE} alt="product1" className="m-3 p-0 w-36 h-auto  md:w-52 md:h-auto rounded object-cover" />
+						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">Movie rating mobile App platform.</p>
+						<img src="img/2.svg" alt="product1" className="m-3 p-0 w-64 h-auto  md:w-72 md:h-auto rounded object-cover" />
 					</div>
 				</div>
 				<div className=" right mx-auto md:mx-3  w-full md:w-1/2   h-auto items-center ">
 					<div className="box mx-0 md:mx-auto my-12 p-0 flex flex-row rounded items-center  ">
-						<img src={URLS.HEADIMAGE} alt="product1" className="m-3 p-0 w-36 h-auto  md:w-52 md:h-auto rounded object-cover" />
+						<img src="img/3.svg" alt="product1" className="m-3 p-0 w-64 h-auto  md:w-72 md:h-auto rounded object-cover" />
 						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">
-							E-commerce platform, mobile and desktop responsive.
+							Responsive website developed for Brand-Prints designs and printing company.
 						</p>
 					</div>
 					<div className="box mx-0 md:mx-auto my-12 p-0 flex flex-row rounded items-center  ">
 						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">
-							E-commerce platform, mobile and desktop responsive.
+							Other platforms includding a Quiz App and a Blog website.
 						</p>
-						<img src={URLS.HEADIMAGE} alt="product1" className="m-3 p-0 w-36 h-auto  md:w-52 md:h-auto rounded object-cover" />
+						<img src="img/4.svg" alt="product1" className="m-3 p-0 w-60 h-auto  md:w-72 md:h-auto rounded object-cover" />
 					</div>
 				</div>
 			</div>

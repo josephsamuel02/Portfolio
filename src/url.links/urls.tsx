@@ -1,7 +1,7 @@
 const URLS = {
 	GITHUB: "https://github.com/josephsamuel02",
 	LINKEDIN: "https://www.linkedin.com/in/joseph-samuel-dev",
-	EMAIL: "mailto:mrsamd02@gmail.com?subject=Request%20For%20Web%20Development%20Service&body=message...",
+	EMAIL: "mailto:mrsamd02@gmail.com?subject=Request%20For%20Development%20Service&body=message...",
 	WHATSAPP: "https://api.whatsapp.com/send?phone=2349056974667",
 	CALL: "tel:2349073077717",
 	FREELANCER: "",
