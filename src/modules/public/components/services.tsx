@@ -27,7 +27,7 @@ const Services = () => {
 					</div>
 					<div className="box mx-0 md:mx-auto my-12 p-0 flex flex-row rounded items-center  ">
 						<p className="mx-auto py-auto p-3 md:p-8 text-base  text-gray-600">
-							Other platforms includding a Quiz App and a Blog website.
+							Other platforms including a Quiz App and a Blog Website.
 						</p>
 						<img src="img/4.svg" alt="product1" className="m-3 p-0 w-60 h-auto  md:w-72 md:h-auto rounded object-cover" />
 					</div>
