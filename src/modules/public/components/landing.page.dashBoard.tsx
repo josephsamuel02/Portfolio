@@ -10,10 +10,10 @@ const LandingPageDashBoard = () => {
 				<div className=" left w-full md:w-3/5 h-auto  md:h-auto mx-0 py-0 items-center flex flex-row">
 					<div className="mx-auto mt-8 md:mt-10 px-6 py-12 w-full   my-auto">
 						<h1 className=" p-0 md:p-3 text-black mx-auto md:m-0 font-bold md:text-left text-left text-5xl md:text-6xl ">
-							Web Development ?
+							Web Development?
 						</h1>
 						<h1 className="p-3 text-indigo-600 m-0 mt-6 md:mt-0 font-bold md:text-left text-left  text-5xl md:text-6xl ">
-							I Gat You.
+							I've Got You.
 						</h1>
 						<p className="p-3 my-12 text-lg text-gray-500  font-base ">
 							For web design, mobile app developmen, website management , web hosting, api integrations and SEO you are in the
