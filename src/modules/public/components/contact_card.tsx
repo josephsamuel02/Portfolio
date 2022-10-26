@@ -22,7 +22,7 @@ const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatc
 					</svg>
 				</h1>
 
-				<h2 className="text-indigo-600 py-1 text-3xl font-bold border-b-2 border-gray-200">Contacts</h2>
+				<h2 className="text-indigo-600 py-1 text-3xl font-bold font-nunito   border-b-2 border-gray-200">Contacts</h2>
 				<a
 					href={URLS.EMAIL}
 					target="_blank"
@@ -31,7 +31,7 @@ const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatc
 					<span className=" mx-3">
 						<SiGmail size={35} color="#e60000" />
 					</span>
-					<span className="px-6 text-xl   text-gray-800">Email Me Directly</span>
+					<span className="px-6 text-xl font-courgette  text-gray-800">Email Me Directly</span>
 				</a>
 
 				<a
@@ -42,7 +42,7 @@ const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatc
 					<span className=" mx-2 p-0 rounded-full bg-green-500">
 						<SiWhatsapp size={35} color="white" />
 					</span>
-					<span className="px-6 text-xl   text-gray-800"> Let's Chat</span>
+					<span className="px-6 text-xl  font-courgette  text-gray-800"> Let's Chat</span>
 				</a>
 
 				<a
@@ -53,14 +53,14 @@ const ContactCard = ({ setShowContactCard }: { setShowContactCard: React.Dispatc
 					<span className=" mx-3">
 						<SiLinkedin size={35} color="#3300cc" />
 					</span>
-					<span className="px-6 text-xl   text-gray-800">Check Me on LinkedIn</span>
+					<span className="px-6 text-xl font-courgette  text-gray-800">Check Me on LinkedIn</span>
 				</a>
 
 				<a href={URLS.CALL} className="mx-auto px-0 py-4 flex flex-row my-6 rounded items-center hover:shadow-lg">
 					<span className=" mx-3">
 						<BsTelephone size={35} color="#0055ff" />
 					</span>
-					<span className="px-6 text-xl text-center text-gray-800">Let's Talk</span>
+					<span className="px-6 text-xl text-center font-courgette text-gray-800">Let's Talk</span>
 				</a>
 			</div>
 		</div>

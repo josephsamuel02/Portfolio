@@ -11,6 +11,11 @@ module.exports = {
 				xl: "1280px",
 				"2xl": "1536px",
 			},
+			fontFamily: {
+				nunito: ["Nunito", " sans-serif"],
+				roboto: ["Roboto", "sans-serif"],
+				courgette: ["Courgette", "cursive"],
+			},
 		},
 	},
 	plugins: [],

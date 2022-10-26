@@ -16,7 +16,7 @@ const LandingPageDashBoard = () => {
 							I've Got You.
 						</h1>
 						<p className="p-3 my-12 text-lg text-gray-500  font-base ">
-							For web design, mobile app developmen, website management , web hosting, api integrations and SEO you are in the
+							For web design, mobile app developmen, website management, web hosting, api integrations and SEO you are in the
 							right place.
 						</p>
 

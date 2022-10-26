@@ -7,7 +7,7 @@ const About = () => {
 	const [showContactCard, setShowContactCard] = useState<boolean>(false);
 	return (
 		<div id="about" className=" max-w-full mx-0 my-6 px-3 py-3 items-center">
-			<h2 className=" mx-6 py-8 text-4xl md:text-5xl text-indigo-600 font-bold">About </h2>
+			<h2 className=" mx-6 py-8 text-4xl md:text-5xl text-indigo-600 font-roboto font-bold">About </h2>
 
 			<div className="mx-auto md:mx-auto px-6 py-12 w-full h-auto flex flex-col md:flex-row rounded border items-center border-slate-300 border-lg">
 				<img src="img/planet.png" alt="image" className="m-3 px-0 w-52 h-52 md:w-64 md:h-64 object-cover rounded-full" />
